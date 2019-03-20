@@ -1,0 +1,12 @@
+{
+  "name": "sandbox",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "clean": "npx rimraf yarn.lock node_modules",
+    "setup": "yarn clean && yarn install --ignore-optional"
+  },
+  "author": "lulzneko",
+  "license": "MIT"
+}
