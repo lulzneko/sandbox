@@ -4,6 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "*",
+    "dotenv": "*",
     "nodemon": "*",
     "ts-node": "*",
     "tsconfig-paths": "*",
