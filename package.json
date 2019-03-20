@@ -7,7 +7,7 @@
     "typescript": "*"
   },
   "scripts": {
-    "clean": "npx rimraf yarn.lock node_modules",
+    "clean": "npx rimraf yarn.lock node_modules dist",
     "setup": "yarn clean && yarn install --ignore-optional"
   },
   "author": "lulzneko",
