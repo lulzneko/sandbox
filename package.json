@@ -4,6 +4,8 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "*",
+    "ts-node": "*",
+    "tsconfig-paths": "*",
     "typescript": "*"
   },
   "scripts": {
