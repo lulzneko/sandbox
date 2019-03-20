@@ -4,6 +4,7 @@
   "dependencies": {},
   "devDependencies": {
     "@types/node": "*",
+    "nodemon": "*",
     "ts-node": "*",
     "tsconfig-paths": "*",
     "typescript": "*"
