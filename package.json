@@ -11,7 +11,8 @@
   },
   "scripts": {
     "clean": "npx rimraf yarn.lock node_modules dist",
-    "setup": "yarn clean && yarn install --ignore-optional"
+    "setup": "yarn clean && yarn install --ignore-optional",
+    "start": "nodemon -w src -x ts-node -r tsconfig-paths/register src/index.ts"
   },
   "author": "lulzneko",
   "license": "MIT"
