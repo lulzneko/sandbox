@@ -2,7 +2,10 @@
   "name": "sandbox",
   "private": true,
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  },
   "scripts": {
     "clean": "npx rimraf yarn.lock node_modules",
     "setup": "yarn clean && yarn install --ignore-optional"
