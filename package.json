@@ -8,6 +8,7 @@
     "nodemon": "*",
     "ts-node": "*",
     "tsconfig-paths": "*",
+    "tslint": "*",
     "typescript": "*"
   },
   "scripts": {
